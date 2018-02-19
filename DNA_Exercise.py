@@ -11,8 +11,6 @@ for i in range(len(DNA)):
     if DNA[i] == "G":
         countG = countG + 1
 
-print("Number of C: ", countC)
-print("Number of G: ", countG)
 print("Total number of C+G: ", countC+countG)
 print("Total Length of DNA: ", len(DNA))
 print("Percentage: ", ((countC+countG)/totalLength)*100)
